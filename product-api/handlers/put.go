@@ -6,7 +6,7 @@ import (
 	"github.com/AhmadShaadiqBahar/build-microservices/product-api/data"
 )
 
-// swagger:route PUT /products products/{id} updateProduct
+// swagger:route PUT /products products updateProduct
 // Update a products details
 //
 // responses:
@@ -16,6 +16,7 @@ import (
 
 // Update handles PUT requests to update products
 func (p *Products) Update(rw http.ResponseWriter, r *http.Request) {
+	rw.Header().Add("Content-Type", "application/json")
 
 	// fetch the product from the context
 	prod := r.Context().Value(KeyProduct{}).(data.Product)
