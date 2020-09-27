@@ -6,12 +6,11 @@ package client
 // Editing this file might prove futile when you re-run the swagger generate command
 
 import (
+	"github.com/AhmadShaadiqBahar/build-microservices/product-api/sdk/client/products"
 	httptransport "github.com/go-openapi/runtime/client"
 
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
-
-	"github.com/nicholasjackson/building-microservices-youtube/product-api/sdk/client/products"
 )
 
 // Default product HTTP client.

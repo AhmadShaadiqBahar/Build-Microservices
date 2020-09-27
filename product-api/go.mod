@@ -8,6 +8,7 @@ require (
 	github.com/go-openapi/runtime v0.19.11
 	github.com/go-openapi/strfmt v0.19.3
 	github.com/go-openapi/swag v0.19.5
+	github.com/go-openapi/validate v0.19.3
 	github.com/go-playground/validator v9.31.0+incompatible
 	github.com/gorilla/mux v1.8.0
 	github.com/nicholasjackson/building-microservices-youtube/product-api v0.0.0-20200918064506-0260dd0e3676

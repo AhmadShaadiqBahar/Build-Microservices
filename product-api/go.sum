@@ -1,4 +1,5 @@
 cloud.google.com/go v0.26.0/go.mod h1:aQUYkXzVsufM+DwF1aE+0xfcU+56JwCaLick0ClmMTw=
+github.com/AhmadShaadiqBahar/build-microservices v0.0.0-20200927143749-2cb3122241ec h1:bcsREruRxVgN3V7l9zySvHygbZJdeKfUwMLKphnWR00=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/PacktPublishing/Building-Microservices-with-Go-Second-Edition v0.0.0-20200323113216-8e0062707f20 h1:jnU5ZB5VZAjSF99/OII6aJ7Zd/mI/vfaFFTetFtrdF4=
 github.com/PacktPublishing/Building-Microservices-with-Go-Second-Edition/product-api v0.0.0-20200205074745-5ec21a886558/go.mod h1:pRIwdzgYkzJCJqMgvOSKS2KQcyjWGfdzf2AZzSoGXhk=
