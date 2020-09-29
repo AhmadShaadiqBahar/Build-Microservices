@@ -10,13 +10,12 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/AhmadShaadiqBahar/build-microservices/product-api/sdk/models"
 	"github.com/go-openapi/errors"
 	"github.com/go-openapi/runtime"
 	cr "github.com/go-openapi/runtime/client"
 
 	strfmt "github.com/go-openapi/strfmt"
-
-	"github.com/AhmadShaadiqBahar/build-microservices/product-api/sdk/models"
 )
 
 // NewCreateProductParams creates a new CreateProductParams object

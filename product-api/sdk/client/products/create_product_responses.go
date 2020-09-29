@@ -9,10 +9,11 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/AhmadShaadiqBahar/build-microservices/product-api/sdk/models"
 	"github.com/go-openapi/runtime"
 
 	strfmt "github.com/go-openapi/strfmt"
+
+	"github.com/AhmadShaadiqBahar/build-microservices/product-api/sdk/models"
 )
 
 // CreateProductReader is a Reader for the CreateProduct structure.
